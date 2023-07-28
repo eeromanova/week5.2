@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: rgb(236, 216, 255);
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 5%;
+    height: 5%;
+    order: -1;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+}
+.img1 {
+    display: flex;
+    justify-content: space-between;
+}
+.img2 {
+    display: flex;
+    justify-content: space-between;
+}
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.foto:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.name {
+    font-size: medium;
+    text-align: center;
+    font-size: 13px;
+}
